@@ -1,0 +1,20 @@
+# Interfere Dark — generated from Radix by interfere-theme
+[colors]
+foreground = "#eeeeee"
+background = "#0a0a0a"
+cursor_bg = "#0090ff"
+cursor_fg = "#0a0a0a"
+cursor_border = "#0090ff"
+selection_fg = "#eeeeee"
+selection_bg = "#004074"
+scrollbar_thumb = "#313131"
+split = "#3a3a3a"
+
+ansi = [
+  "#111111", "#e5484d", "#46a758", "#ffc53d",
+  "#0090ff", "#8e4ec6", "#00a2c7", "#b4b4b4",
+]
+brights = [
+  "#606060", "#ec5d5e", "#53b365", "#ffd60a",
+  "#3b9eff", "#9a5cd0", "#23afd0", "#eeeeee",
+]

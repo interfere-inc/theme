@@ -1,0 +1,1 @@
+require('interfere').load 'dark'

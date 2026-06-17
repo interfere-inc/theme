@@ -1,0 +1,42 @@
+{
+  "name": "@interfere/theme",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "description": "Custom theme for Neovim, Cursor, and your terminal from the team at Interfere.",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "scripts": {
+    "palette": "bun scripts/build-palette.ts",
+    "generate": "bun scripts/generate.ts",
+    "build": "bun scripts/build-palette.ts && bun scripts/generate.ts",
+    "validate": "bun scripts/validate-contrast.ts",
+    "check": "bun scripts/generate.ts --check",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "package:vscode": "bun run build && cd editors/vscode && bunx @vscode/vsce package --no-dependencies",
+    "publish:vscode": "cd editors/vscode && bunx @vscode/vsce publish --no-dependencies"
+  },
+  "files": [
+    "colors",
+    "lua",
+    "editors",
+    "terminals",
+    "palette.dark.json",
+    "palette.light.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "@typescript/native-preview": "latest"
+  }
+}

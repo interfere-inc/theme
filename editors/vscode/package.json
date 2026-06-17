@@ -1,0 +1,53 @@
+{
+  "name": "interfere-theme",
+  "displayName": "Interfere",
+  "description": "Custom theme for Neovim, Cursor, and your terminal from the team at Interfere.",
+  "version": "0.0.1",
+  "publisher": "interfere",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "light",
+    "radix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/interfere/theme"
+  },
+  "galleryBanner": {
+    "color": "#0a0a0a",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Interfere Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/interfere-dark-color-theme.json"
+      },
+      {
+        "label": "Interfere Dark Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/interfere-dark-vibrant-color-theme.json"
+      },
+      {
+        "label": "Interfere Light",
+        "uiTheme": "vs",
+        "path": "./themes/interfere-light-color-theme.json"
+      },
+      {
+        "label": "Interfere Light Vibrant",
+        "uiTheme": "vs",
+        "path": "./themes/interfere-light-vibrant-color-theme.json"
+      }
+    ]
+  }
+}

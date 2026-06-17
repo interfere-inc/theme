@@ -1,0 +1,75 @@
+---@param p table
+return function(p)
+  return {
+    Normal = { fg = p.fg.text, bg = p.bg.base },
+    NormalNC = { fg = p.fg.text, bg = p.bg.base },
+    NormalFloat = { fg = p.fg.text, bg = p.bg.base },
+    FloatBorder = { fg = p.border.dialog, bg = p.bg.base },
+    FloatTitle = { fg = p.border.dialog, bg = p.bg.base, bold = true },
+    FloatFooter = { fg = p.fg.muted, bg = p.bg.base },
+
+    Cursor = { fg = p.bg.base, bg = p.special.cursor },
+    CursorLine = { bg = p.bg.ui },
+    CursorLineNr = { fg = p.fg.dim, bold = true },
+    LineNr = { fg = p.fg.muted },
+    Visual = { bg = p.bg.sel },
+    Search = { bg = p.bg.sel, fg = p.fg.text },
+    IncSearch = { bg = p.accent.base, fg = p.bg.base, bold = true },
+    CurSearch = { bg = p.accent.base, fg = p.bg.base, bold = true },
+    Substitute = { bg = p.accent.base, fg = p.bg.base },
+    MatchParen = { bg = p.bg.sel, fg = p.fg.text, bold = true },
+
+    SignColumn = { bg = p.bg.base, fg = p.fg.muted },
+    FoldColumn = { bg = p.bg.base, fg = p.fg.faint },
+    Folded = { bg = p.bg.ui, fg = p.fg.muted },
+    ColorColumn = { bg = p.bg.ui },
+    CursorColumn = { bg = p.bg.ui },
+    NonText = { fg = p.border.subtle },
+    Whitespace = { fg = p.border.subtle },
+    Directory = { fg = p.accent.text },
+    Title = { fg = p.accent.text, bold = true },
+    Conceal = { fg = p.fg.muted },
+    WinSeparator = { fg = p.border.subtle },
+    VertSplit = { fg = p.border.subtle },
+
+    Pmenu = { fg = p.fg.text, bg = p.bg.base },
+    PmenuSel = { fg = p.fg.text, bg = p.bg.ui_active, bold = true },
+    PmenuSbar = { bg = p.bg.base },
+    PmenuThumb = { bg = p.bg.ui_active },
+
+    StatusLine = { fg = p.fg.dim, bg = p.bg.bar },
+    StatusLineNC = { fg = p.fg.muted, bg = p.bg.bar },
+    TabLine = { fg = p.fg.muted, bg = p.bg.bar },
+    TabLineFill = { bg = p.bg.bar },
+    TabLineSel = { fg = p.fg.text, bg = p.bg.base, sp = p.accent.base, underline = true },
+    WinBar = { fg = p.fg.dim, bg = p.bg.base },
+    WinBarNC = { fg = p.fg.muted, bg = p.bg.base },
+
+    ErrorMsg = { fg = p.semantic.error_text },
+    WarningMsg = { fg = p.semantic.warn_text },
+    ModeMsg = { fg = p.fg.dim },
+    MoreMsg = { fg = p.accent.text },
+    Question = { fg = p.accent.text },
+    QuickFixLine = { bg = p.bg.sel, fg = p.fg.text },
+
+    -- diagnostics
+    DiagnosticError = { fg = p.semantic.error_text },
+    DiagnosticWarn = { fg = p.semantic.warn_text },
+    DiagnosticInfo = { fg = p.semantic.info_text },
+    DiagnosticHint = { fg = p.fg.muted },
+    DiagnosticOk = { fg = p.semantic.ok_text },
+    DiagnosticUnderlineError = { undercurl = true, sp = p.semantic.error },
+    DiagnosticUnderlineWarn = { undercurl = true, sp = p.semantic.warn },
+    DiagnosticUnderlineInfo = { undercurl = true, sp = p.semantic.info },
+    DiagnosticUnderlineHint = { undercurl = true, sp = p.fg.muted },
+
+    -- diff / git
+    DiffAdd = { bg = p.diff.add },
+    DiffDelete = { bg = p.diff.delete },
+    DiffChange = { bg = p.diff.change },
+    DiffText = { bg = p.diff.text },
+    Added = { fg = p.semantic.ok_text },
+    Removed = { fg = p.semantic.error_text },
+    Changed = { fg = p.accent.text },
+  }
+end

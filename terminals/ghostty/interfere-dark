@@ -1,0 +1,24 @@
+# Interfere Dark — generated from Radix by interfere-theme
+background = #0a0a0a
+foreground = #eeeeee
+cursor-color = #0090ff
+cursor-text = #0a0a0a
+selection-background = #004074
+selection-foreground = #eeeeee
+
+palette = 0=#111111
+palette = 1=#e5484d
+palette = 2=#46a758
+palette = 3=#ffc53d
+palette = 4=#0090ff
+palette = 5=#8e4ec6
+palette = 6=#00a2c7
+palette = 7=#b4b4b4
+palette = 8=#606060
+palette = 9=#ec5d5e
+palette = 10=#53b365
+palette = 11=#ffd60a
+palette = 12=#3b9eff
+palette = 13=#9a5cd0
+palette = 14=#23afd0
+palette = 15=#eeeeee

@@ -1,0 +1,431 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Interfere Dark Vibrant",
+  "type": "dark",
+  "colors": {
+    "foreground": "color(display-p3 0.7059 0.7059 0.7059)",
+    "focusBorder": "color(display-p3 0.0000 0.5647 1.0000)",
+    "selection.background": "color(display-p3 0.0510 0.1569 0.2784)",
+    "icon.foreground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "errorForeground": "color(display-p3 1.0000 0.5843 0.5725)",
+    "descriptionForeground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "editor.background": "color(display-p3 0.0392 0.0392 0.0392)",
+    "editor.foreground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "editorLineNumber.foreground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "editorLineNumber.activeForeground": "color(display-p3 0.7059 0.7059 0.7059)",
+    "editor.lineHighlightBackground": "color(display-p3 0.1333 0.1333 0.1333)",
+    "editor.selectionBackground": "color(display-p3 0.0000 0.2510 0.4549)",
+    "editor.selectionHighlightBackground": "color(display-p3 0.0510 0.1569 0.2784)",
+    "editor.wordHighlightBackground": "color(display-p3 0.1647 0.1647 0.1647)",
+    "editor.wordHighlightStrongBackground": "color(display-p3 0.1922 0.1922 0.1922)",
+    "editor.findMatchBackground": "color(display-p3 0.0000 0.2510 0.4549)",
+    "editor.findMatchHighlightBackground": "color(display-p3 0.0510 0.1569 0.2784)",
+    "editor.hoverHighlightBackground": "color(display-p3 0.1647 0.1647 0.1647)",
+    "editorCursor.foreground": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorWhitespace.foreground": "color(display-p3 0.2275 0.2275 0.2275)",
+    "editorIndentGuide.background1": "color(display-p3 0.1333 0.1333 0.1333)",
+    "editorIndentGuide.activeBackground1": "color(display-p3 0.2275 0.2275 0.2275)",
+    "editorBracketMatch.background": "color(display-p3 0.1333 0.1333 0.1333)",
+    "editorBracketMatch.border": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorRuler.foreground": "color(display-p3 0.2275 0.2275 0.2275)",
+    "editorGutter.addedBackground": "color(display-p3 0.2745 0.6549 0.3451)",
+    "editorGutter.deletedBackground": "color(display-p3 0.8980 0.2824 0.3020)",
+    "editorGutter.modifiedBackground": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorError.foreground": "color(display-p3 1.0000 0.5843 0.5725)",
+    "editorWarning.foreground": "color(display-p3 1.0000 0.7922 0.0863)",
+    "editorInfo.foreground": "color(display-p3 0.4392 0.7216 1.0000)",
+    "editorHint.foreground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "editorLink.activeForeground": "color(display-p3 0.4392 0.7216 1.0000)",
+    "editorOverviewRuler.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "editorOverviewRuler.errorForeground": "color(display-p3 0.8980 0.2824 0.3020)",
+    "editorOverviewRuler.warningForeground": "color(display-p3 1.0000 0.7725 0.2392)",
+    "editorOverviewRuler.modifiedForeground": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorOverviewRuler.addedForeground": "color(display-p3 0.2745 0.6549 0.3451)",
+    "editorWidget.background": "color(display-p3 0.0627 0.0627 0.0627)",
+    "editorWidget.border": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorHoverWidget.background": "color(display-p3 0.0627 0.0627 0.0627)",
+    "editorHoverWidget.border": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorSuggestWidget.background": "color(display-p3 0.0627 0.0627 0.0627)",
+    "editorSuggestWidget.border": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorSuggestWidget.selectedBackground": "color(display-p3 0.1922 0.1922 0.1922)",
+    "editorSuggestWidget.highlightForeground": "color(display-p3 0.4392 0.7216 1.0000)",
+    "peekView.border": "color(display-p3 0.0000 0.5647 1.0000)",
+    "peekViewEditor.background": "color(display-p3 0.0627 0.0627 0.0627)",
+    "peekViewResult.background": "color(display-p3 0.0980 0.0980 0.0980)",
+    "peekViewTitle.background": "color(display-p3 0.0980 0.0980 0.0980)",
+    "panel.background": "color(display-p3 0.0392 0.0392 0.0392)",
+    "panel.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "panelTitle.activeForeground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "panelTitle.inactiveForeground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "sideBar.background": "color(display-p3 0.0980 0.0980 0.0980)",
+    "sideBar.foreground": "color(display-p3 0.7059 0.7059 0.7059)",
+    "sideBar.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "sideBarSectionHeader.background": "color(display-p3 0.0980 0.0980 0.0980)",
+    "sideBarTitle.foreground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "activityBar.background": "color(display-p3 0.0980 0.0980 0.0980)",
+    "activityBar.foreground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "activityBar.inactiveForeground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "activityBar.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "activityBarBadge.background": "color(display-p3 0.0000 0.5647 1.0000)",
+    "activityBarBadge.foreground": "color(display-p3 0.0392 0.0392 0.0392)",
+    "statusBar.background": "color(display-p3 0.0980 0.0980 0.0980)",
+    "statusBar.foreground": "color(display-p3 0.7059 0.7059 0.7059)",
+    "statusBar.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "statusBar.noFolderBackground": "color(display-p3 0.0980 0.0980 0.0980)",
+    "statusBar.debuggingBackground": "color(display-p3 1.0000 0.7725 0.2392)",
+    "statusBar.debuggingForeground": "color(display-p3 0.0392 0.0392 0.0392)",
+    "titleBar.activeBackground": "color(display-p3 0.0980 0.0980 0.0980)",
+    "titleBar.activeForeground": "color(display-p3 0.7059 0.7059 0.7059)",
+    "titleBar.inactiveBackground": "color(display-p3 0.0980 0.0980 0.0980)",
+    "titleBar.inactiveForeground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "titleBar.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "tab.activeBackground": "color(display-p3 0.0392 0.0392 0.0392)",
+    "tab.inactiveBackground": "color(display-p3 0.0980 0.0980 0.0980)",
+    "tab.activeForeground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "tab.inactiveForeground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "tab.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "tab.activeBorderTop": "color(display-p3 0.0000 0.5647 1.0000)",
+    "editorGroupHeader.tabsBackground": "color(display-p3 0.0980 0.0980 0.0980)",
+    "breadcrumb.foreground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "breadcrumb.focusForeground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "input.background": "color(display-p3 0.1333 0.1333 0.1333)",
+    "input.foreground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "input.border": "color(display-p3 0.2824 0.2824 0.2824)",
+    "input.placeholderForeground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "inputOption.activeBorder": "color(display-p3 0.0000 0.5647 1.0000)",
+    "dropdown.background": "color(display-p3 0.1333 0.1333 0.1333)",
+    "dropdown.foreground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "dropdown.border": "color(display-p3 0.2824 0.2824 0.2824)",
+    "quickInput.background": "color(display-p3 0.0627 0.0627 0.0627)",
+    "quickInput.foreground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "quickInputList.focusBackground": "color(display-p3 0.1922 0.1922 0.1922)",
+    "button.background": "color(display-p3 0.0000 0.5647 1.0000)",
+    "button.foreground": "color(display-p3 0.0392 0.0392 0.0392)",
+    "button.hoverBackground": "color(display-p3 0.2314 0.6196 1.0000)",
+    "badge.background": "color(display-p3 0.0000 0.5647 1.0000)",
+    "badge.foreground": "color(display-p3 0.0392 0.0392 0.0392)",
+    "progressBar.background": "color(display-p3 0.0000 0.5647 1.0000)",
+    "notifications.background": "color(display-p3 0.0627 0.0627 0.0627)",
+    "notifications.border": "color(display-p3 0.2275 0.2275 0.2275)",
+    "notificationsErrorIcon.foreground": "color(display-p3 1.0000 0.5843 0.5725)",
+    "notificationsWarningIcon.foreground": "color(display-p3 1.0000 0.7922 0.0863)",
+    "notificationsInfoIcon.foreground": "color(display-p3 0.4392 0.7216 1.0000)",
+    "list.activeSelectionBackground": "color(display-p3 0.1922 0.1922 0.1922)",
+    "list.activeSelectionForeground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "list.inactiveSelectionBackground": "color(display-p3 0.1333 0.1333 0.1333)",
+    "list.hoverBackground": "color(display-p3 0.1647 0.1647 0.1647)",
+    "list.highlightForeground": "color(display-p3 0.4392 0.7216 1.0000)",
+    "list.focusBackground": "color(display-p3 0.1922 0.1922 0.1922)",
+    "list.errorForeground": "color(display-p3 1.0000 0.5843 0.5725)",
+    "list.warningForeground": "color(display-p3 1.0000 0.7922 0.0863)",
+    "tree.indentGuidesStroke": "color(display-p3 0.1333 0.1333 0.1333)",
+    "scrollbarSlider.background": "color(display-p3 0.1922 0.1922 0.1922)",
+    "scrollbarSlider.hoverBackground": "color(display-p3 0.2824 0.2824 0.2824)",
+    "scrollbarSlider.activeBackground": "color(display-p3 0.2824 0.2824 0.2824)",
+    "minimapSlider.background": "color(display-p3 0.1333 0.1333 0.1333)",
+    "gitDecoration.modifiedResourceForeground": "color(display-p3 0.4392 0.7216 1.0000)",
+    "gitDecoration.deletedResourceForeground": "color(display-p3 1.0000 0.5843 0.5725)",
+    "gitDecoration.untrackedResourceForeground": "color(display-p3 0.4431 0.8157 0.5137)",
+    "gitDecoration.ignoredResourceForeground": "color(display-p3 0.4314 0.4314 0.4314)",
+    "gitDecoration.conflictingResourceForeground": "color(display-p3 0.6941 0.6627 1.0000)",
+    "merge.currentHeaderBackground": "color(display-p3 0.0000 0.5647 1.0000)",
+    "merge.incomingHeaderBackground": "color(display-p3 0.3569 0.3569 0.8392)",
+    "diffEditor.insertedTextBackground": "color(display-p3 0.1059 0.1647 0.1176)",
+    "diffEditor.removedTextBackground": "color(display-p3 0.2314 0.0706 0.0980)",
+    "terminal.background": "color(display-p3 0.0392 0.0392 0.0392)",
+    "terminal.foreground": "color(display-p3 0.9333 0.9333 0.9333)",
+    "terminalCursor.foreground": "color(display-p3 0.0000 0.5647 1.0000)",
+    "terminal.ansiBlack": "color(display-p3 0.0667 0.0667 0.0667)",
+    "terminal.ansiRed": "color(display-p3 0.8980 0.2824 0.3020)",
+    "terminal.ansiGreen": "color(display-p3 0.2745 0.6549 0.3451)",
+    "terminal.ansiYellow": "color(display-p3 1.0000 0.7725 0.2392)",
+    "terminal.ansiBlue": "color(display-p3 0.0000 0.5647 1.0000)",
+    "terminal.ansiMagenta": "color(display-p3 0.5569 0.3059 0.7765)",
+    "terminal.ansiCyan": "color(display-p3 0.0000 0.6353 0.7804)",
+    "terminal.ansiWhite": "color(display-p3 0.7059 0.7059 0.7059)",
+    "terminal.ansiBrightBlack": "color(display-p3 0.3765 0.3765 0.3765)",
+    "terminal.ansiBrightRed": "color(display-p3 0.9255 0.3647 0.3686)",
+    "terminal.ansiBrightGreen": "color(display-p3 0.3255 0.7020 0.3961)",
+    "terminal.ansiBrightYellow": "color(display-p3 1.0000 0.8392 0.0392)",
+    "terminal.ansiBrightBlue": "color(display-p3 0.2314 0.6196 1.0000)",
+    "terminal.ansiBrightMagenta": "color(display-p3 0.6039 0.3608 0.8157)",
+    "terminal.ansiBrightCyan": "color(display-p3 0.1373 0.6863 0.8157)",
+    "terminal.ansiBrightWhite": "color(display-p3 0.9333 0.9333 0.9333)"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.4314 0.4314 0.4314)",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.4431 0.8157 0.5137)"
+      }
+    },
+    {
+      "scope": [
+        "string.regexp",
+        "constant.regexp"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.0431 0.8471 0.7137)"
+      }
+    },
+    {
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.3451 0.8353 0.7294)"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.4588 0.7804 0.9412)"
+      }
+    },
+    {
+      "scope": [
+        "constant",
+        "constant.language",
+        "support.constant",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.9608 0.8824 0.2784)"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 1.0000 0.5804 0.6157)"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.2980 0.8000 0.9020)"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.new",
+        "keyword.operator.expression",
+        "keyword.operator.delete",
+        "keyword.control.ternary"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 1.0000 0.5804 0.6157)"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.7294 0.6549 1.0000)"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "support.class",
+        "entity.name.class",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.9059 0.5882 0.9529)"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.namespace",
+        "entity.name.type.namespace",
+        "variable.language",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 1.0000 0.7922 0.0863)"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "meta.definition.variable.name",
+        "variable.other.readwrite",
+        "meta.object-literal.key",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 1.0000 0.6275 0.3412)"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter",
+        "meta.function.parameters"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.7059 0.7059 0.7059)"
+      }
+    },
+    {
+      "scope": [
+        "meta.decorator",
+        "entity.name.function.decorator",
+        "punctuation.decorator"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.4392 0.7216 1.0000)"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "support.class.component"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 1.0000 0.5922 0.4902)"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.attribute"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.1216 0.8471 0.6431)"
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "meta.brace",
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.3765 0.3765 0.3765)"
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.9333 0.9333 0.9333)"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading",
+        "entity.name.section"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.7294 0.6549 1.0000)",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.bold"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.italic"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "markup.inline.raw",
+        "markup.fenced_code"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.4431 0.8157 0.5137)"
+      }
+    },
+    {
+      "scope": [
+        "markup.underline.link",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.9608 0.8824 0.2784)"
+      }
+    },
+    {
+      "scope": [
+        "markup.inserted"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 0.4431 0.8157 0.5137)"
+      }
+    },
+    {
+      "scope": [
+        "markup.deleted"
+      ],
+      "settings": {
+        "foreground": "color(display-p3 1.0000 0.5843 0.5725)"
+      }
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "keyword": "color(display-p3 1.0000 0.5804 0.6157)",
+    "function": "color(display-p3 0.7294 0.6549 1.0000)",
+    "method": "color(display-p3 0.7294 0.6549 1.0000)",
+    "type": "color(display-p3 0.9059 0.5882 0.9529)",
+    "class": "color(display-p3 0.9059 0.5882 0.9529)",
+    "interface": "color(display-p3 0.9059 0.5882 0.9529)",
+    "enum": "color(display-p3 0.9059 0.5882 0.9529)",
+    "namespace": "color(display-p3 1.0000 0.7922 0.0863)",
+    "string": "color(display-p3 0.4431 0.8157 0.5137)",
+    "number": "color(display-p3 0.4588 0.7804 0.9412)",
+    "regexp": "color(display-p3 0.0431 0.8471 0.7137)",
+    "variable": "color(display-p3 1.0000 0.6275 0.3412)",
+    "parameter": "color(display-p3 0.7059 0.7059 0.7059)",
+    "property": "color(display-p3 1.0000 0.6275 0.3412)",
+    "enumMember": "color(display-p3 0.9608 0.8824 0.2784)",
+    "decorator": "color(display-p3 0.4392 0.7216 1.0000)",
+    "comment": "color(display-p3 0.4314 0.4314 0.4314)",
+    "operator": "color(display-p3 0.2980 0.8000 0.9020)"
+  }
+}

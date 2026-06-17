@@ -1,0 +1,24 @@
+# Interfere Light — generated from Radix by interfere-theme
+background = #fcfcfc
+foreground = #202020
+cursor-color = #0090ff
+cursor-text = #fcfcfc
+selection-background = #c2e5ff
+selection-foreground = #202020
+
+palette = 0=#fcfcfc
+palette = 1=#e5484d
+palette = 2=#46a758
+palette = 3=#ffc53d
+palette = 4=#0090ff
+palette = 5=#8e4ec6
+palette = 6=#00a2c7
+palette = 7=#646464
+palette = 8=#bbbbbb
+palette = 9=#dc3e42
+palette = 10=#3e9b4f
+palette = 11=#ffba18
+palette = 12=#0588f0
+palette = 13=#8347b9
+palette = 14=#0797b9
+palette = 15=#202020

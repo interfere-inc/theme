@@ -1,0 +1,4 @@
+palette.*.json            linguist-generated=true
+lua/interfere/palette_*.lua linguist-generated=true
+editors/**                linguist-generated=true
+terminals/**              linguist-generated=true
