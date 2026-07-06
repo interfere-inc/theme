@@ -251,7 +251,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "color(display-p3 0.7294 0.6549 1.0000)"
+        "foreground": "color(display-p3 0.4902 0.4000 0.8510)"
       }
     },
     {
@@ -263,7 +263,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "color(display-p3 0.9059 0.5882 0.9529)"
+        "foreground": "color(display-p3 0.7137 0.3451 0.7686)"
       }
     },
     {
@@ -314,7 +314,7 @@
         "support.class.component"
       ],
       "settings": {
-        "foreground": "color(display-p3 1.0000 0.5922 0.4902)"
+        "foreground": "color(display-p3 0.4902 0.4000 0.8510)"
       }
     },
     {
@@ -352,7 +352,7 @@
         "entity.name.section"
       ],
       "settings": {
-        "foreground": "color(display-p3 0.7294 0.6549 1.0000)",
+        "foreground": "color(display-p3 0.4902 0.4000 0.8510)",
         "fontStyle": "bold"
       }
     },
@@ -410,12 +410,12 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "keyword": "color(display-p3 1.0000 0.5804 0.6157)",
-    "function": "color(display-p3 0.7294 0.6549 1.0000)",
-    "method": "color(display-p3 0.7294 0.6549 1.0000)",
-    "type": "color(display-p3 0.9059 0.5882 0.9529)",
-    "class": "color(display-p3 0.9059 0.5882 0.9529)",
-    "interface": "color(display-p3 0.9059 0.5882 0.9529)",
-    "enum": "color(display-p3 0.9059 0.5882 0.9529)",
+    "function": "color(display-p3 0.4902 0.4000 0.8510)",
+    "method": "color(display-p3 0.4902 0.4000 0.8510)",
+    "type": "color(display-p3 0.7137 0.3451 0.7686)",
+    "class": "color(display-p3 0.7137 0.3451 0.7686)",
+    "interface": "color(display-p3 0.7137 0.3451 0.7686)",
+    "enum": "color(display-p3 0.7137 0.3451 0.7686)",
     "namespace": "color(display-p3 1.0000 0.7922 0.0863)",
     "string": "color(display-p3 0.4431 0.8157 0.5137)",
     "number": "color(display-p3 0.4588 0.7804 0.9412)",

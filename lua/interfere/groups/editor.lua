@@ -10,7 +10,8 @@ return function(p)
 
     Cursor = { fg = p.bg.base, bg = p.special.cursor },
     CursorLine = { bg = p.bg.ui },
-    CursorLineNr = { fg = p.fg.dim, bold = true },
+    -- active line number: brand accent + bold so it's unmistakable
+    CursorLineNr = { fg = p.accent.base, bold = true },
     LineNr = { fg = p.fg.muted },
     Visual = { bg = p.bg.sel },
     Search = { bg = p.bg.sel, fg = p.fg.text },

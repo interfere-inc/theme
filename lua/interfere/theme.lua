@@ -7,11 +7,19 @@ local modules = {
   'interfere.groups.syntax',
   'interfere.groups.lsp',
   'interfere.groups.plugins.gitsigns',
+  'interfere.groups.plugins.neogit',
+  'interfere.groups.plugins.codediff',
   'interfere.groups.plugins.snacks',
   'interfere.groups.plugins.trouble',
   'interfere.groups.plugins.mini',
   'interfere.groups.plugins.which-key',
   'interfere.groups.plugins.blink',
+  'interfere.groups.plugins.flash',
+  'interfere.groups.plugins.multicursor',
+  'interfere.groups.plugins.grug-far',
+  'interfere.groups.plugins.treesitter-context',
+  'interfere.groups.plugins.dap',
+  'interfere.groups.plugins.neotest',
 }
 
 ---@param p table the resolved palette

@@ -4,7 +4,7 @@
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import type { Palette } from './build-palette.ts';
-import { vscode, wezterm, ghostty } from './targets.ts';
+import { vscode, wezterm, ghostty, tmux } from './targets.ts';
 
 const ROOT = path.resolve(import.meta.dir, '..');
 const MODES = ['dark', 'light'] as const;
@@ -66,6 +66,7 @@ for (const mode of MODES) {
   emit(`editors/vscode/themes/interfere-${mode}-color-theme.json`, vscode(p));
   emit(`terminals/wezterm/interfere-${mode}.toml`, wezterm(p));
   emit(`terminals/ghostty/interfere-${mode}`, ghostty(p));
+  emit(`terminals/tmux/interfere-${mode}.tmux`, tmux(p));
 
   // P3 "vibrant" VS Code variant (wide-gamut displays).
   const p3 = p3ify(p);

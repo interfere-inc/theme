@@ -248,6 +248,39 @@ brights = [
 `;
 }
 
+// ── tmux ──
+// Colors only, exposed as `@thm_*` user options (the wezterm toml is likewise
+// colors-only). The status-line LAYOUT lives in the consumer's tmux.conf, which
+// reads these vars — so restyling never touches this repo, and recoloring never
+// touches the dotfiles.
+export function tmux(p: Palette): string {
+  const vars: Record<string, string> = {
+    bg: p.bg.base,
+    bar_bg: p.bg.bar,
+    fg: p.fg.text,
+    fg_dim: p.fg.dim,
+    fg_muted: p.fg.muted,
+    accent: p.accent.base,
+    accent_fg: p.bg.base,
+    border: p.border.subtle,
+    border_active: p.accent.base,
+    inactive_bg: p.bg.ui,
+    sel_bg: p.special.selection,
+    ok: p.semantic.ok,
+    warn: p.semantic.warn,
+    error: p.semantic.error,
+    info: p.semantic.info,
+  };
+  const lines = Object.entries(vars)
+    .map(([k, v]) => `set -g @thm_${k} "${v}"`)
+    .join('\n');
+  return `# ${p.name} — generated from Radix by interfere-theme
+# Color palette as tmux user options; the status-line layout lives in the
+# consumer's tmux.conf (which reads these @thm_* vars).
+${lines}
+`;
+}
+
 // ── Ghostty ──
 export function ghostty(p: Palette): string {
   const a = p.ansi;
